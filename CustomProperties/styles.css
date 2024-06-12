@@ -72,3 +72,31 @@ border-radius: calc( var(--border-radius, 10px));
 
 
 }
+/* componente boton */
+
+.button{
+display: inline-block;
+text-decoration: none;
+padding: 12px 20px;
+background-image: var(--gradient);
+border-radius: 5px;
+color: var(--white);
+font-weight: bold;
+/* margin-top: 20  px; */
+width: 100%;
+text-align: center;
+border-radius: calc( var(--border-radius, 10px));
+}
+
+.button__icon{
+margin-right: 8px;
+
+}
+
+.button__text{
+  color: var(--white);
+}
+
+.button-black{
+  background: var(--black);
+}
